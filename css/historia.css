@@ -240,6 +240,7 @@
 .knowledge__paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
+    
 }
 
 .knowledge__img{
@@ -364,6 +365,7 @@
     object-position: 50% 30%;
     
 }
+
 
 .testimony__texts{
     max-width: 700px;
