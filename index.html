@@ -4,201 +4,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="css/apiVue.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <title>Inicio • Seven Lives</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <a href="index.html">
-                <img class="logo" src="assets/icono.jpeg" alt="Descripción de la Imagen">
-            </a>
-        </div>
-        <div class="barra_nav">
-            <nav>
-                <a class="menu" href="index.html">Inicio</a>
-                <a class="menu" href="/templates/lista.html">Listas</a>
-                <a class="menu" href="/templates/galeria.html">Galeria</a>
-                <a class="menu" href="/templates/tabla.html">Tabla</a>
-                <a class="menu" href="/templates/formulario.html">Formulario</a>
+        <div class="deslizableMenu">
+            <nav class="menu">
+                <ul>
+                    <div class="div-logo">
+
+                        <a href="index.html">
+                            <img class="logo" src="/img/nuevo-seven-lives.png" alt="SevenLives">
+                        </a>
+
+                    </div>
+                    <div class="div-lista">
+                        <li><a class="active" href="index.html">Inicio</a></li>
+                        <li><a href="templates/bienestar.html">Bienestar</a></li>
+                        <li><a href="templates/historia.html">Historia</a></li>
+                        <li><a href="templates/contacto.html">Contacto</a></li>
+                    </div>
+
+                </ul>
+
             </nav>
+            <button class="no-border" id="hideMenuButton">
+                <img src="/img/huella-animacion - copia.png" alt="ocultar-menu">
+            </button>
+
         </div>
+        <button class="no-border" id="showMenuButton" style="display: none;">
+            <img src="/img/huella-animacion.png" alt="desplegar menu">
+        </button>
+
     </header>
+
     <main>
-        <section class="hero">
-            <div class="hero__container container">
-                <h1 class="hero__title">HISTORIA</h1>
+        <div class="space-top">
+            <img class="gato-curioso" src="/img/curiosity-cat2.png" alt="curiosity-cat">
+        </div>
 
-            </div>
-        </section>
+        <section class="wp-block-cover">
+            <div class="opacidad">
+                <span aria-hidden="true"
+                    class="wp-block-cover__background has-secondary-background-color has-background-dim-70 has-background-dim"></span>
+                <div class="wp-block-cover__content">
 
-        <section class="container about">
-            <h2 class="subtitle">la figura del gato a lo largo de la historia</h2>
-            <p class="about__paragraph">Aunque llevan conviviendo con los humanos menos que los perros, los gatos han
-                sido un punto clave en la cultura de muchas civilizaciones a lo largo de la Historia. Te lo contamos
-                todas las curiosidades sobre su evolución.</p>
-
-            <div class="about__main">
-                <article class="about__icons">
-                    <img src="assets/gato egipto.jpg" class="about__icon">
-                    <h3 class="about__title">Egipto Antiguo</h3>
-                    <p class="about__paragrah">Durante el Egipto Antiguo, los gatos eran venerados como seres sagrados y
-                        asociados con la diosa Bastet. Eran considerados protectores de los hogares y amuletos contra el
-                        mal. La matanza de un gato, incluso accidentalmente, se castigaba con la pena de muerte. Los
-                        gatos también eran momificados y enterrados con sus dueños para llevarlos al más allá </p>
-                </article>
-
-                <article class="about__icons">
-                    <img src="assets/gato edad media.jpg" class="about__icon">
-                    <h3 class="about__title">Edad Media</h3>
-                    <p class="about__paragrah">En la Edad Media, los gatos negros sufrieron persecución debido a la
-                        creencia de que estaban relacionados con la brujería. Fueron cazados y asesinados, lo que llevó
-                        a una disminución de su población. Se creía que los gatos eran familiares de brujas y que tenían
-                        poderes mágicos. Esta persecución dejó una marca en la historia de los gatos negros, quienes
-                        todavía son, en algunos lugares, considerados de mala suerte.</p>
-                </article>
-
-                <article class="about__icons">
-                    <img src="assets/gato siames.jpg" class="about__icon">
-                    <h3 class="about__title">Siglo XIX</h3>
-                    <p class="about__paragrah">El siglo XIX marcó el comienzo de la cría selectiva de razas de gatos. Se
-                        fundaron las primeras asociaciones de criadores y se empezaron a establecer estándares para
-                        razas específicas, como los siameses y persas. Este período llevó a la proliferación de gatos
-                        con características físicas distintivas y una creciente popularidad de las exposiciones felinas,
-                        que continúa hasta hoy.</p>
-                </article>
-            </div>
-        </section>
-
-        <section class="knowledge">
-            <div class="knowledge__container container">
-                <div class="knowledege__texts">
-                    <h2 class="subtitle">Algunas curiosidades!</h2>
-                    <p class="knowledge__paragraph">Una curiosidad interesante sobre los gatos en la historia es su
-                        relación con la protección de manuscritos medievales. Durante la Edad Media en los monasterios
-                        europeos, los gatos a menudo vivían en las bibliotecas. Su presencia tenía un propósito crucial:
-                        proteger los manuscritos de los roedores, como ratones y ratas, que podían causar daños graves a
-                        estos documentos históricos.
-
-                        Los monjes copistas y bibliotecarios valoraban enormemente los manuscritos, ya que eran una
-                        forma de preservar y transmitir conocimiento en tiempos en los que los libros eran escasos y
-                        costosos de producir. Los gatos, con su instinto de cazadores, se convirtieron en guardianes
-                        eficaces contra las plagas de roedores que podrían destruir estos tesoros culturales.
-
-                        Esta relación entre los gatos y la protección de manuscritos medievales es una curiosidad
-                        histórica fascinante que muestra cómo los gatos han desempeñado diversos roles en la vida de las
-                        personas a lo largo de los siglos, más allá de ser simples mascotas.</p>
+                    <h1><img id="huella-ico" src="img/pngtree-pink-cat-paw-paw-image_2244116-removebg-preview.png"
+                            alt="">¡Bienvenido/a a Seven Lives, amante de los felinos!<img id="huella-ico"
+                            src="img/pngtree-pink-cat-paw-paw-image_2244116-removebg-preview.png" alt=""></h1>
+                    <h4>Desde las majestuosas pirámides de Egipto, donde los gatos eran venerados como dioses, hasta
+                        los cómodos sofás de nuestras casas, estos seres peludos han sido protagonistas de
+                        incontables capítulos en la historia de la humanidad. Aquí, en Seven Lives, nos sumergimos
+                        en el fascinante mundo de los gatos, explorando no sólo su rica historia, sino también
+                        aspectos cruciales para su bienestar y salud.</h4>
+                    <h4>Así que ya sea que seas un apasionado de la historia gatuna, un preocupado dueño buscando
+                        consejos de salud, o simplemente alguien curioso por aprender más sobre estos maravillosos
+                        animales, ¡estás en el lugar correcto! Únete a nosotros en esta aventura felina y descubre
+                        todo lo que hay que saber sobre nuestros compañeros de bigotes.</h4>
 
                 </div>
-
-                <figure>
-                    <video height="480" width="270" controls class="videogato">
-                        <source src="assets/Snapinsta.app_video_322945886_834276437897260_8991045916060121318_n.mp4"
-                            type="video/mp4">
-                        Tu navegador no admite el elemento de video.
-                    </video>
-                </figure>
-
             </div>
         </section>
-
-        <section>
-            <h2 class="subtitle">MITOS</h2>
-
-            <div class="price__table">
-                <div class="price__element">
-                    <h3 class="price__price">Los gatos siempre caen de pie</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Este mito sugiere que los gatos tienen la habilidad de caer desde
-                            cualquier altura y aterrizar sobre sus patas. Aunque los gatos tienen reflejos rápidos y una
-                            excelente agilidad, no siempre pueden prevenir lesiones graves en caídas desde grandes
-                            alturas.</p>
-
-                    </div>
-
-
-                </div>
-
-
-                <div class="price__element">
-
-                    <h3 class="price__price">Los gatos negros traen mala suerte</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Este es un mito supersticioso que ha persistido durante mucho tiempo.
-                            En muchas culturas, los gatos negros se consideran de mal agüero. Sin embargo, en realidad,
-                            el color de un gato no tiene nada que ver con la suerte que puedan traer./p>
-
-                    </div>
-
-
-                </div>
-
-
-                <div class="price__element">
-
-                    <h3 class="price__price">Los gatos son solitarios y no necesitan compañía</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Aunque los gatos son conocidos por su independencia, muchos disfrutan
-                            de la compañía humana y de otros gatos. Algunos gatos son bastante sociales y pueden
-                            entablar relaciones cercanas con sus dueños y otros animales.</p>
-
-                    </div>
-
-
-                </div>
-
-
-            </div>
-        </section>
-
-        <section class="testimony">
-            <div class="testimony__container container">
-                <img src="" class="testimony__arrow" id="before">
-
-                <section class="testimony__body testimony__body--show" data-id="1">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Dato Científico, <span class="testimony__course">El Ronroneo</span></h2>
-                        <p class="testimony__review">Un dato científico sobre el ronroneo de los gatos es que el
-                            ronroneo es un fenómeno aún no completamente comprendido, pero se ha descubierto que su
-                            frecuencia de vibración está en el rango de 25 a 150 hertz (Hz), y la mayoría de los gatos
-                            ronronea a alrededor de 25-50 Hz. Esta vibración se produce en la laringe del gato y puede
-                            extenderse a lo largo de todo su cuerpo, lo que incluye no solo la garganta sino también los
-                            huesos y tejidos. La razón detrás de este rango específico de frecuencia y su efecto en los
-                            gatos sigue siendo un área activa de investigación. Sin embargo, se ha observado que esta
-                            frecuencia de vibración del ronroneo parece tener propiedades terapéuticas en los humanos y
-                            los gatos, lo que podría explicar por qué a menudo se asocia con la comodidad y la curación.
-                        </p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="assets/gato ronroneo.jpg" class="testimony__img" id="testimonyImage">
-                    </figure>
-                </section>
-                <img src="" class="testimony__arrow" id="next">
-            </div>
-        </section>
-        </section>
-
-        <script>
-
-            const knowledgeContainer = document.querySelector('.knowledge__container');
-            window.addEventListener('scroll', () => {
-                const elementRect = knowledgeContainer.getBoundingClientRect();
-                const windowHeight = window.innerHeight;
-                if (elementRect.top < windowHeight) {
-                    knowledgeContainer.classList.add('entered');
-                } else {
-                    knowledgeContainer.classList.remove('entered');
-                }
-            });
-        </script>
         
+        <section class="s3">
+            <div class="section-div">
+                <img class="gato-curioso" src="/img/curiosity-cat.png" alt="curiosity-cat">
+                <h1>Antes de continuar, ¿te gustaría conocer algunos datos curiosos sobre los gatos? ¡Adelante!</h1>
+            </div>
+        </section>
+
+        <section class="section-cat" id="app">
+
+            <div class="opacidad-cat">
+                <section class="align-cat">
+                    <div class="catanimation">
+                        <span v-for="(gato, index) in gatos" :style="'--i:' + (index + 1)"> <img :src="gato.url"
+                                alt="Imagen de gato">
+                            <div class="info-text">
+                                <p class="padding-p">{{ gato.texto }}</p>
+                            </div>
+                        </span>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="s5">
+            <div class="section-div5">
+                    <h1>Adéntrate en el Mundo Felino: descubre su historia, el cuidado que necesitan y si tienes sugerencias, ¡no dudes en contactarnos!</h1>
+                <img class="gato-curioso5" src="/img/curiosity-cat3.png" alt="curiosity-cat">
+            </div>
+        </section>
+
+        <section class="section1">
+            <div class="fondo-card">
+                <div class="card-index">
+                    <div class="img-container">
+                        <img class="img-cat" src="img/historia.jpg" alt="Imagen de historia">
+                        <div class="overlay">
+                            <h6>Descubre cómo los gatos conquistaron el mundo, pasando de ser cazadores solitarios en
+                                las sabanas africanas a ser los reyes de Internet. Conoce las civilizaciones que los
+                                adoraron, los artistas que se inspiraron en ellos y las leyendas que giran en torno a
+                                estos misteriosos animales.</h6>
+                            <a href="/templates/historia.html">Ir a <strong>Historia</strong></a>
+                        </div>
+                    </div>
+
+                    <div class="img-container">
+                        <img class="img-cat" src="/img/bienestar.jpg" alt="Imagen de bienestar">
+                        <div class="overlay">
+                            <h6>¿Sabías que el ronroneo de un gato tiene propiedades curativas? Del mismo modo, es
+                                esencial que conozcamos los cuidados que necesitan para mantenerse saludables y felices.
+                                Desde las vacunas esenciales hasta consejos para una buena higiene, cubrimos todo lo que
+                                necesitas saber para garantizar que tu gato viva una vida larga y plena.</h6>
+                            <a href="/templates/bienestar.html">Ir a <strong>Bienestar</strong></a>
+                        </div>
+                    </div>
+
+                    <div class="img-container">
+                        <img class="img-cat" src="/img/contacto.jpg" alt="Imagen contacto">
+                        <div class="overlay">
+                            <h6>¿Tienes preguntas o comentarios? ¿Quieres compartir la historia de tu gato? ¡Nos
+                                encantaría escucharte! En nuestra sección de contacto, encontrarás cómo comunicarte con
+                                nosotros. Busques consejo, colaboración o solo compartir, tu aporte es esencial para
+                                Seven Lives. ¡Únete a nuestra comunidad gatuna!</h6>
+                            <a href="/templates/contacto.html">Ir a <strong>Contacto</strong></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
     </main>
-    </main>
+
+    <footer>
+        <div class="fondo-opaco">
+            <div class="curiosity-footer"><img src="img/footer/curiositi-cat4.png" alt=""></div>
+            <div class="catfamily">
+                <div class="redes-flex">
+                    <h1>Nuestras redes de contacto</h1>
+                </div>
+                <div class="redes-sociales">
+                    <a href="https://www.instagram.com/" target="_blank">Instagram <img src="/img/redes/instagram.png"
+                            alt=""></a></li>
+                    <a href="https://www.facebook.com/" target="_blank">Facebook <img src="/img/redes/facebook (1).png"
+                            alt=""></a></li>
+                    <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">Whatsapp <img
+                            src="/img/redes/whatsapp.png" alt=""></a></li>
+                    <a href="mailto:hernandez.flores.rr@gmail.com">E-mail<img src="/img/redes/email.png" alt=""></a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/header.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="/js/ApiVue.js"></script>
+
 </body>
 
 </html>
